@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f2f5f9;
+    color: #22304a;
+    max-width: 520px;
+    margin: 0 auto;
+    padding: 24px;
+}
+
+.caixa-total {
+    background-color: #0f766e;
+    color: #ffffff;
+    padding: 24px;
+    text-align: center;
+    border-radius: 18px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.topo {
+    color: #6b7a94;
+    text-align: center;
+    margin: 16px;
+}
+
+.total-gasto {
+    font-size: 42px;
+    font-weight: bold;
+    margin: 12px;
+}
+
+label {
+    background-color: #ffffff;
+    border-radius: 16px;
+    padding: 28px;
+    text-align: center;
+    font-weight: bold;
+    border: 4px dashed #c3cfe0;
+    display: block;
+    margin: 16px;
+    cursor: pointer;
+}
+
+input {
+    display: none;
+}
+
+.comprovante {
+    background-color: #ffffff;
+    border-radius: 14px;
+    padding: 16px;
+    margin-bottom: 12px;
+}
+
+.itens {
+    white-space: pre-line;
+    font-size: 15px;
+    line-height: 1.8;
+    color: #4a5b78;
+}
+
+.total-nota {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px dashed #d6dee9;
+    padding-top: 12px;
+    margin-top: 12px;
+    font-size: 15px;
+    color: #6b7a94;
+}
